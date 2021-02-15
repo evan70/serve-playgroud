@@ -4,8 +4,8 @@
   "description": "Serve playgroud with tailwindcss and alpinejs",
   "scripts": {
     "serve": "cross-env NODE_ENV=development concurrently \"postcss src/tailwind.css -o public/build/css/tailwind.css --watch\"  \"live-server ./public\"",
-    "development": "cross-env NODE_ENV=development postcss src/tailwind.css -o public/build/css/tailwind.css",
-    "production": "cross-env NODE_ENV=production postcss src/tailwind.css -o public/build/css/tailwind.css",
+    "dev": "cross-env NODE_ENV=development postcss src/tailwind.css -o public/build/css/tailwind.css",
+    "prod": "cross-env NODE_ENV=production postcss src/tailwind.css -o public/build/css/tailwind.css",
     "start": "npm run serve",
     "playground": "live-server ./playground",
     "deploy": "gh-pages -d public"
