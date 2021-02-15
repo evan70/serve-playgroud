@@ -1,6 +1,6 @@
-Dashboard
+Playground
 
-Responsive dashboard built with tailwindcss & alpinejs
+tailwind css elements with alpinejs built with postcss and Live Server
 
 Get started:
 
