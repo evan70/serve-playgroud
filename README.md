@@ -7,9 +7,9 @@ Get started:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/evan70
+   git clone https://github.com/evan70/serve-playground
 
-   cd kwd-dashboard
+   cd serve-playground
    ```
 
 2. Install the dependencies:
